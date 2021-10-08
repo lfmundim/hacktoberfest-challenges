@@ -2,7 +2,7 @@ import sys
 
 def checkPrime(x):
     # 1 is not a prime
-    if x == 1:
+    if x == 1 or x == 0:
         return False
     
     # Loop from 2 to sqrt(x)

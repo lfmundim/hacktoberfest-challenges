@@ -8,8 +8,4 @@ for i in range(n):
     string = input("\nString: ")
     shift = int(input("\nShifts: "))
     print(cipher(string, shift))
-
-
-string = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-shift = 10
-
+    
